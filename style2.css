@@ -1,0 +1,386 @@
+/* Header */
+table {
+  font-family: monaco, monospace;
+  font-size: 12px;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 50px;
+  font-family: Bradley Hand, cursive;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: monaco, monospace;
+}
+
+.nav {
+  border-bottom: black;
+}
+
+/* Navigation */
+.topnav {
+  overflow: hidden;
+  color: black;
+  font-size: 1px;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-family: monaco, monospace;
+
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+button {
+  padding: 0px 0px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+  width: 5%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+input[type=text] {
+  width: 30%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #FFF9A6;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.button2 {
+  background-color: hotpink;
+  color: white;
+  padding: 5px 10px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-family: monaco, monospace;
+}
+
+.btn-danger {
+  border: black;
+  width: 50%;
+  font-family: monaco, monospace;
+}
+
+h3 {
+  font-family: monaco, monospace;
+}
+
+p {
+  font-family: monaco, monospace;
+  font-size: 15px;
+}
+
+img.favs {
+  border-radius: 50%;
+}
+
+.register {
+  font-size: small;
+  color: black;
+  background-color: #F0F8FF;
+}
+
+.login {
+  background-color: white;
+  font-size: small;
+  color: black;
+}
+
+.shoppingCart {
+  font-size: small;
+  color: black;
+}
+
+.navTable {
+  border-spacing: 0px;
+}
+
+#title {
+  margin-left: 10px;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+input[type=submit] {
+  font-family: monaco, monospace;
+}
+
+#name {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: monaco, monospace;
+  background-color: lightgray;
+}
+
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: monaco, monospace;
+  background-color: lightgray;
+}
+
+#email {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: monaco, monospace;
+  background-color: lightgray;
+}
+
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: monaco, monospace;
+  background-color: lightgray;
+
+}
+
+#Pass_Confirmation {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+  font-family: monaco, monospace;
+  background-color: lightgray;
+}
+
+#log {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: #111;
+  font-family: monaco, monospace;
+  background-color: #90ee90;
+}
+
+b {
+  font-family: monaco, monospace;
+}
+
+.login {
+  border-style: solid;
+  border-color: black;
+  height: fit-content;
+
+}
+
+span {
+  font-family: monaco, monospace;
+}
+
+.navLogin {
+  background-color: white;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: fit-content;
+  background-color: #D4F1F4;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #F0F8FF;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  opacity: 0.5;
+  height: 40px;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: 15px;
+  bottom: 3px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #0FFF50;
+  font-size: 60px;
+  font-family: monaco, monospace;
+  font-weight: bold;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  background-color: #FFF9A6;
+  padding: 20px;
+  z-index: 9999;
+}
+
+form {
+  display: table;
+}
+
+label {
+  display: table-row;
+}
+
+/* input { display: table-cell; } */
+
+.circle {
+  border-radius: 60%;
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  background: #8AFF8A;
+  border: 3px solid #000;
+  color: #000;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+
+.id {
+  background-color: #FFF9A6;
+}
+
+.sucessReg1 a:hover {
+  background-color: rgb(17, 114, 198);
+}
+
+.circle {
+  border-radius: 100%;
+  width: 150px;
+  height: 70px;
+  padding: 25px;
+  background: #8AFF8A;
+  border: 3px solid #000;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
